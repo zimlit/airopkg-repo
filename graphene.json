@@ -1,0 +1,12 @@
+{
+  "name": "graphene",
+  "repo": {
+    "name": "github.com/zimlit/graphene",
+    "type": "git"
+  },
+  "build-cmds": [
+    "premake5 gmake",
+    "make config=release"
+  ],
+  "bin-dir": "bin/Release"
+}
